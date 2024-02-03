@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#logo {
+  width: 120px; /* Adjust the width as needed */
+  height: auto; /* To maintain the aspect ratio */
+}
+
+#header {
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-left {
+  display: flex;
+  align-items: center;
+}
+
+#header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#glass {
+  width: 30px;
+  height: auto;
+}
+
+#user {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(218, 211, 211);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+
+#compass {
+  width: 20px;
+  height: auto;
+}
+
+#compass-border {
+  background-color: rgb(244, 240, 240);
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+#vertical-line {
+  height: 35px;
+  border-left: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.tag-all {
+  background-color: rgb(107, 104, 104);
+  color: white;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.tags {
+  background-color: rgb(244, 240, 240);
+  font-size: 13px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin: 0px 5px;
+}
+
+.video {
+  width: 100%;
+}
+
+.icons {
+  width: 40px;
+}
+
+.dots {
+  width: 17px;
+}
+
+.video-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 5px solid lightgray;
+}
+
+.video-title {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: normal;
+  gap: 8px;
+}
+
+.video-stats {
+  font-size: 11px;
+  color: grey;
+}
+
+#shorts-icon {
+  width: 100px;
+}
+
+.short {
+  width: 175px;
+}
+
+#shorts-vids {
+  display: flex;
+  margin: -5px 15px;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  margin-left: -20px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-icon {
+  width: 45px;
+}
+
+.footer-icon-shorts {
+  width: 35px;
+  margin-top: 2px;
+}
+
+.footer-icon-library {
+  width: 20px;
+}
+
+.library-text {
+  font-size: 8px;
+}
+
+#body-container {
+  overflow-y: scroll;
+}
